@@ -1,0 +1,138 @@
+.app {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+}
+
+.todo-input form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.todo-input input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.todo-input button {
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  background: #0e8f8f;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.todo-filters {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.filter-button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: #0e8f8f;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.empty-message {
+  text-align: center;
+  color: #777;
+}
+
+.todo-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  gap: 12px;
+}
+
+.todo-description {
+  flex: 1;
+}
+
+.todo-description.completed {
+  text-decoration: line-through;
+  color: #2e9e4a;
+}
+
+.todo-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.todo-actions input[type='checkbox'] {
+  width: 18px;
+  height: 18px;
+  accent-color: black;
+}
+
+.edit-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.edit-button {
+  background: silver;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background: silver;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.confirm-button {
+  background: #0e8f8f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
